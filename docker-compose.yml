@@ -1,0 +1,9 @@
+version: '2.1'
+services:
+  server:
+    build:
+      context: .
+    image: blockies-server
+    container_name: blockies-server
+    ports:
+      - "8081:8080"
